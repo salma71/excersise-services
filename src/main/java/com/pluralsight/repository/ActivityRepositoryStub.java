@@ -1,41 +1,54 @@
 package com.pluralsight.repository;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.pluralsight.model.Activity;
 import com.pluralsight.model.User;
 
 public class ActivityRepositoryStub implements ActivityRepository {
-	/* (non-Javadoc)
-	 * @see com.pluralsight.repository.ActivityRepasitory#findAllActivity()
-	 */
-	
-	public List<Activity> findAllActivities(){
-		List<Activity> activities = new ArrayList<Activity>();
-		Activity act_1 = new Activity();
-		
-		act_1.setDescription("Swimming");
-		act_1.setDuration(30);
-		
-		activities.add(act_1);
 
-		User user = new User();
-		user.setId("65743");
-		user.setName("Salma");
-		act_1.getUser(user);
-		
-		Activity act_2 = new Activity();
-		
-		act_2.setDescription("walking");
-		act_2.setDuration(55);
-		
-		activities.add(act_2);
-		
+	public List<Activity> findAllActivities () {
+		List<Activity> activities = new ArrayList<Activity>();
+
+		Activity activity1 = new Activity();
+
+		activity1.setDescription("Swimming");
+		activity1.setDuration(55);
+
+		activities.add(activity1);
+
+		Activity activity2 = new Activity();
+
+		activity2.setDescription("Cycling");
+		activity2.setDuration(120);
+
+		activities.add(activity2);
+
 		return activities;
 	}
 
 	@Override
 	public Activity findActivity(String activityId) {
-		return null;
+
+		Activity activity1 = new Activity();
+
+		activity1.setId("12");
+		activity1.setDescription("Swimming");
+		activity1.setDuration(55);
+
+		User user = new User();
+		user.setId("12");
+		user.setName("Salma");
+
+		activity1.setUser(user);
+
+		return activity1;
 	}
+
+	@Override
+	public void create(Activity activity) {
+// should inject to db
+	}
+
 }
