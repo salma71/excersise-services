@@ -9,10 +9,6 @@
     <list default="true" id="bfdc82c6-5949-472f-a87d-8cc9162f3447" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/ActivityResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/ActivityResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/ActivityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/ActivityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/ActivityRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/ActivityRepositoryStub.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/ActivityResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="211">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#430#431#0" expanded="true" />
@@ -255,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543504104687" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543505177600" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -423,12 +419,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543439919457</updated>
-      <workItem from="1543439923534" duration="4759000" />
+      <workItem from="1543439923534" duration="5545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4759000" />
+    <option name="totallyTimeSpent" value="5545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -543,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/ActivityResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="211">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#430#431#0" expanded="true" />
